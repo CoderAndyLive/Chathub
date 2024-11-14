@@ -1,0 +1,24 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chat-container">
+        <h1>Chat App</h1>
+        <div id="messages"></div>
+        <input type="text" id="user" placeholder="Benutzername" />
+        <input type="text" id="message-input" placeholder="Nachricht eingeben..." />
+        <button id="send-button">Senden</button>
+        <div id="admin-controls" style="display: none;">
+            <input type="text" id="ban-username" placeholder="Benutzername bannen" />
+            <button id="ban-button">Bannen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
